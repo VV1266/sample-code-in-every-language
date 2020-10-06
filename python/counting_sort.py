@@ -11,6 +11,7 @@ def counting_sort(arr):
     # Store count of each element
     for i in arr:
         count[i] += 1
+    arr_count = [count[i] for i in arr]
 
     # Change count[i] so that count[i] now contains actual
     # position of this element in output array
